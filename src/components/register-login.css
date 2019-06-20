@@ -1,0 +1,79 @@
+body{
+    overflow: hidden;
+    background-color:#e6e6e6;
+    background-image: url('../img/Plants.png') ;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.container.form{
+
+min-height: 100vh; 
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.form-container{
+    width: 50%;
+    height:70%;
+    background-color: #fff;
+    margin-top: -15%;
+    
+    
+}
+
+.form-label{
+   font-weight: bold;
+   margin-top: 5%; 
+}
+
+form{
+    width: 80%;
+    margin: 10% auto;
+}
+form button.btn{
+    display: block;
+    background-color:#df2525;
+    color:#fff;
+    margin : 10% auto;
+    padding-top:3%;
+    padding-bottom:3%;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.16), 0 6px 6px rgba(209, 19, 19, 0.23);
+}
+form button.btn:hover{
+    background-color:#E44C4C !important;
+}
+label{
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 3%;
+}
+small#sign-in{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+
+small#sign-in .red{
+    color:#df2525;
+}
+
+.invalid:focus{
+    border-color: #df2525;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #df252581;
+}
+
+.invalid{
+    border-color: #df2525;
+    outline: 0;
+    
+}
+.error{
+    color:#E44C4C;
+}
